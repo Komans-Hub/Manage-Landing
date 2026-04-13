@@ -22,7 +22,7 @@ export default function Navbar() {
         <nav className={`${styles.nav} container`} aria-label="Main navigation">
           {/* Logo */}
           <a href="/" className={styles.logo} aria-label="Manage – go to homepage">
-            <img src="/images/logo.svg" alt="Manage" width="146" height="24" />
+            <img src="./images/logo.svg" alt="Manage" width="146" height="24" />
           </a>
 
           {/* Desktop links */}
@@ -48,7 +48,7 @@ export default function Navbar() {
             onClick={() => setOpen((v) => !v)}
           >
             <img
-              src={open ? '/images/icon-close.svg' : '/images/icon-hamburger.svg'}
+              src={open ? './images/icon-close.svg' : './images/icon-hamburger.svg'}
               alt=""
               aria-hidden="true"
               width="24"

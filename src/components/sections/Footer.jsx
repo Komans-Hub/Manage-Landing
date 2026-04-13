@@ -31,7 +31,7 @@ export default function Footer() {
         <div className={styles.brand}>
           <a href="/" aria-label="Manage – go to homepage">
             <img
-              src="/images/logo.svg"
+              src="./images/logo.svg"
               alt="Manage"
               className={styles.logo}
               width="146"

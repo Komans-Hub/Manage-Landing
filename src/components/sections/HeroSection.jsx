@@ -6,14 +6,14 @@ export default function HeroSection() {
     <section className={styles.hero} aria-labelledby="hero-heading">
       {/* Decorative background blob */}
       <div className={styles.blob} aria-hidden="true">
-        <img src="/images/bg-tablet-pattern.svg" alt="" />
+        <img src="./images/bg-tablet-pattern.svg" alt="" />
       </div>
 
       <div className={`${styles.inner} container`}>
         {/* Illustration */}
         <div className={`${styles.illustration} anim-fade-in`}>
           <img
-            src="/images/illustration-intro.svg"
+            src="./images/illustration-intro.svg"
             alt="Manage dashboard illustration"
           />
         </div>
