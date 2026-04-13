@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: var(--gray-50);
+  padding: 3.5rem 2rem 2.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  position: relative;
+  flex: 0 0 calc(100vw - 3rem); 
+  max-width: 540px;
+  scroll-snap-align: center;
+}
+
+.avatar {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: -2.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--blue-950);
+  margin-top: 0.5rem;
+}
+
+.quote {
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  color: var(--gray-400);
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex: 0 0 350px;
+  }
+}

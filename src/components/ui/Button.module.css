@@ -1,0 +1,30 @@
+.btn {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  border-radius: 2rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  transition: opacity 0.2s ease, background 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+  border: none;
+  cursor: pointer;
+}
+
+.orange {
+  background: var(--orange-400);
+  color: #fff;
+  box-shadow: 0 12px 24px -4px hsla(12, 88%, 59%, 0.4);
+}
+.orange:hover {
+  opacity: 0.75;
+}
+
+.white {
+  background: #fff;
+  color: var(--orange-400);
+  box-shadow: 0 12px 24px -4px rgba(0, 0, 0, 0.15);
+}
+.white:hover {
+  opacity: 0.75;
+}

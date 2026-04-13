@@ -1,0 +1,53 @@
+.section {
+  padding-block: 4rem;
+  overflow: hidden;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.intro {
+  text-align: center;
+}
+
+.heading {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  color: var(--blue-950);
+  margin-bottom: 1rem;
+}
+
+.body {
+  max-width: 38ch;
+  margin-inline: auto;
+  line-height: 1.8;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .inner {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 6rem;
+  }
+  .intro {
+    flex: 1;
+    text-align: left;
+    position: sticky;
+    top: 7rem;
+  }
+  .intro .body {
+    margin-inline: 0;
+  }
+  .list {
+    flex: 1;
+  }
+}
